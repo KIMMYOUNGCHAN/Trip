@@ -1,0 +1,28 @@
+/*css 주석다는법*/
+/* 이거 자체가 css파일이기 때문에 css 주석만 적용 가능*/
+ h1{
+    border-bottom: 3px solid powderblue;/*테두리 두께는 3px, 선모양은 실선,
+                                      색깔은 파우더 블루*/
+    margin-bottom: 0px;
+  }
+img{
+  width: 200px; /* 사진 너비를 70픽셀로 지정*/
+  height: 150px; /* 사진 높이를 70pixel로 지정*/
+}
+input{
+  height: 30px;
+  float: right;
+}
+button{
+  height: 35px;
+  float: right;
+}
+ul{
+  border-right: 3px dotted powderblue;
+  width: 80px; /*100px 만큰 태그의 크기 즉 폭변경*/
+  margin: 0;
+}
+
+script{
+  font-size: 100px;
+}
