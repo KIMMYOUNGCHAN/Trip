@@ -1,0 +1,42 @@
+<!--html 주석다는법 -->
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Aisa No.1 HighQuality Trip</title>
+    <link rel="stylesheet" href="css2.css">
+  </head>
+
+
+  <body>
+    <script type="text/javascript">
+      document.write('하이퀄리티트립');
+    </script>
+
+  <button onclick="alert('준비중입니다. 김명찬 관리자에게 문의 해주시기 바랍니다.')">검색</button>
+  <input type="text", value="검색어 입력">
+    <!--div로 아무 의미없는 태그 만든후 그 안에 버튼그림 만드는 button 태그를
+    만들었고 그아래에 글자를 넣을수있는 타입의 text를 지정하고 검색어 입력
+    을 적었다.사실 input 태그 먼저 만들고 button 태그를 만들었지만
+    folat 속성때문에 검색버튼이 제일 오른쪽에 가야해서 순서때문에 이렇게
+    만들었다... 순서가 진짜 중요한듯... -->
+<h1><img src="vietnamflag.png"
+alt="사진이 뜨지 않을경우 관리자에게 연락주세요">문화</h1>
+<!--h1은 heading 이란 의미로 제목을 나타내는 태그다. 1이 제일 크기가 크고
+6이 제일작으면서 6까지 밖에없다. 그리고 자동 줄바꿈 기능도 있다.
+img는 이미지의 약자로 말그대로 src 안에는 이미지 링크 or 파일이름을 넣어야하고
+ alt 같은경우 사진이 뜨지 않을 때 이를 대체할만한 설명, 즉 경고창표시?다.
+ 크기조절은 css파일에 img선택자 생성해서 거기에다가 설정해 놨다 -->
+<ul> <!--만약 ol 태그를 쓰면 숫자가 차례대로 나온다 -->
+  <li><a href="introduce.html", target="_blank">소개</a></li> <br><br><!--리스트, 즉 목차로 자동 줄바꿈된다-->
+  <li><a href="culture.html", target="_blank">문화</a></li> <br><br>
+  <li><a href="trip.html", target="_blank">여행 코스</a></li> <br><br>
+  <li><a href="", onclick="alert('준비중입니다. 김명찬 관리자에게 문의 해주시기 바랍니다.')">
+    고객센터</li> <br><br> <!-- onclick 속성 값으로는 반드시 자바스크립트 코드가 와야한다 -->
+</ul>
+  </body>
+<script type="text/javascript">
+  document.write(0+1);
+</script>
+
+</html>
